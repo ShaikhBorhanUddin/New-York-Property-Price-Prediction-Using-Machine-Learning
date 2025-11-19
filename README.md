@@ -4,7 +4,4 @@
 
 ## Dataset 
 
-[Dataset](https://www.kaggle.com/datasets/datasciencedonut/current-nyc-property-sales) 
-
-
-
+The original [Dataset](https://www.kaggle.com/datasets/datasciencedonut/current-nyc-property-sales) is sourced from Kaggle. 
