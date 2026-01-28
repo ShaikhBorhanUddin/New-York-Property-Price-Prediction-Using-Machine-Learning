@@ -62,4 +62,4 @@ if st.button('Predict Sale Price'):
     # Make prediction
     prediction = model.predict(input_data)[0]
 
-    st.success(f'Predicted Adjusted Sale Price: ${prediction:,.2f}')
+    st.success(f'Approximate current property value: ${prediction:,.2f}')
