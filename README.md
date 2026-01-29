@@ -10,4 +10,4 @@ The original [Dataset](https://www.kaggle.com/datasets/datasciencedonut/current-
 
 ## Deployment 
 
-To access the streamlit app click the [Likk](https://nycfamilyhousepriceprediction.streamlit.app/).
+To access the streamlit app click the [Link](https://nycfamilyhousepriceprediction.streamlit.app/).
