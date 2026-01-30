@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/📊%20Visualization-Matplotlib%20%7C%20Seaborn-yellow" alt="Visualization">
 
   <!-- Dataset -->
-  <img src="https://img.shields.io/badge/Dataset-NYC%20Property%20Sales-blueviolet" alt="Dataset: NYC Property Sales">
+  <img src="https://img.shields.io/badge/Dataset-Kaggle | data.gov | datahub-blueviolet" alt="Dataset: NYC Property Sales">
 
   <!-- Runtime -->
   <img src="https://img.shields.io/badge/Runtime-CPU%20%7C%20Colab-blue" alt="Runtime">
