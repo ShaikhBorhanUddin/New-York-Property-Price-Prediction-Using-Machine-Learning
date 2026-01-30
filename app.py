@@ -172,7 +172,7 @@ with col1:
     # LOT Selectbox
     lot = st.number_input('LOT', min_value=1, value=46, help='Lot number')
 
-   st.header('Building Characteristics')
+   st.subheader('Building Characteristics')
 
    # BUILDING CLASS AT TIME OF SALE Selectbox
     selected_building_class = st.selectbox(
