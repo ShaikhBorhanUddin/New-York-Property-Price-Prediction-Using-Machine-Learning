@@ -13,8 +13,8 @@
   <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/New-York-Family-Home-Price-Prediction?logo=github" />
   <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/New-York-Family-Home-Price-Prediction-Using-Machine-Learning" alt="Last Commit">
 
-  <!-- Model -->
-  <img src="https://img.shields.io/badge/🤖%20Model-XGBoost | ElasticNet | Random Forest-red" alt="Model: XGBoost">
+  <!-- Models -->
+  <img src="https://img.shields.io/badge/🤖%20Models-XGBoost | ElasticNet | Random Forest-red" alt="Model: XGBoost">
 
   <!-- ML Stack -->
   <img src="https://img.shields.io/badge/ML%20Stack-Scikit--Learn%20%7C%20XGBoost-purple" alt="ML Stack">
