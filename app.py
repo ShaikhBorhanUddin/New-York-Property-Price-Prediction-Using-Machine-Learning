@@ -167,7 +167,11 @@ with col1:
         on_change=on_zip_code_change,
         help='Property ZIP code'
     )
-
+    # BLOCK Selectbox
+    block = st.number_input('BLOCK', min_value=1, value=374, help='Block number')
+    # LOT Selectbox
+    lot = st.number_input('LOT', min_value=1, value=46, help='Lot number')
+    
     # Latitude and Longitude inputs for map visualization (now dynamically updated)
     st.subheader('Property Location (for Map Visualization)')
     # Display current lat/lon from session state, user can still override if needed
