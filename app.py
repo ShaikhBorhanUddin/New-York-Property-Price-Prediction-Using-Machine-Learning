@@ -5,26 +5,17 @@ import xgboost
 import folium
 from streamlit_folium import st_folium
 
-# --------------------------------------------------
-# Page config (VERY IMPORTANT)
-# --------------------------------------------------
-st.set_page_config(
-    page_title="NYC Family House Price Prediction",
-    layout="wide"
-)
+# Page config 
+st.set_page_config( page_title="NYC Family House Price Prediction", layout="wide")
 
-# --------------------------------------------------
 # File Paths
-# --------------------------------------------------
 model_path = 'Models/xgboost_model.pkl'
 feature_names_path = 'Models/feature_names.pkl'
 unique_categorical_values_path = 'Models/unique_categorical_values.pkl'
 combined_location_mapping_path = 'Models/combined_location_mapping.pkl'
 location_coordinates_mapping_path = 'Models/location_coordinates_mapping.pkl'
 
-# --------------------------------------------------
 # Load Model & Artifacts
-# --------------------------------------------------
 @st.cache_resource
 def load_model():
     return joblib.load(model_path)
@@ -41,9 +32,7 @@ def load_artifacts():
 model = load_model()
 feature_names, unique_categorical_values, combined_location_mapping, location_coordinates_mapping = load_artifacts()
 
-# --------------------------------------------------
 # Mappings & Defaults
-# --------------------------------------------------
 borough_names_map = {
     1: 'Manhattan',
     2: 'Bronx',
@@ -58,9 +47,7 @@ initial_zip_code = 10009
 initial_latitude = 40.7128
 initial_longitude = -74.0060
 
-# --------------------------------------------------
 # Helper Functions
-# --------------------------------------------------
 def update_lat_lon():
     key = (
         st.session_state.selected_borough_id,
@@ -110,9 +97,7 @@ def on_zip_code_change():
     st.session_state.selected_zip_code = st.session_state.zip_code_select
     update_lat_lon()
 
-# --------------------------------------------------
 # Session State Init
-# --------------------------------------------------
 if 'selected_borough_id' not in st.session_state:
     st.session_state.selected_borough_id = initial_borough_id
 
@@ -125,20 +110,14 @@ if 'selected_zip_code' not in st.session_state:
 if 'selected_latitude' not in st.session_state:
     update_lat_lon()
 
-# --------------------------------------------------
 # App Title
-# --------------------------------------------------
 st.title("NYC Family House Price Prediction")
 st.write("Enter the property details to predict its current sale price.")
 
-# --------------------------------------------------
 # Layout: 3 Columns
-# --------------------------------------------------
 col1, col2, col3 = st.columns([1.1, 1.2, 1])
 
-# --------------------------------------------------
 # Column 1: Location + Block/Lot + Building
-# --------------------------------------------------
 with col1:
     st.header("Location Details")
 
@@ -197,9 +176,7 @@ with col1:
         )
     )
 
-# --------------------------------------------------
 # Column 2: Property Details
-# --------------------------------------------------
 with col2:
     st.header("Property Details")
 
@@ -213,9 +190,7 @@ with col2:
     sale_year = st.number_input("SALE YEAR", 2000, 2024, 2022)
     sale_month = st.number_input("SALE MONTH", 1, 12, 9)
 
-# --------------------------------------------------
 # Column 3: Coordinates + Map
-# --------------------------------------------------
 with col3:
     st.header("Property Location (for Map Visualization)")
 
@@ -244,9 +219,7 @@ with col3:
     folium.Marker([latitude, longitude]).add_to(m)
     st_folium(m, width=None, height=380)
 
-# --------------------------------------------------
 # Prediction
-# --------------------------------------------------
 if st.button("Predict Sale Price"):
     input_data = {
         'BOROUGH': st.session_state.selected_borough_id,
