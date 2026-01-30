@@ -193,9 +193,6 @@ with col1:
 
 with col2:
     st.header('Property Details')
-
-    block = st.number_input('BLOCK', min_value=1, value=374, help='Block number')
-    lot = st.number_input('LOT', min_value=1, value=46, help='Lot number')
     residential_units = st.number_input('RESIDENTIAL UNITS', min_value=0, value=1, help='Number of residential units')
     commercial_units = st.number_input('COMMERCIAL UNITS', min_value=0, value=0, help='Number of commercial units')
     land_square_feet = st.number_input('LAND SQUARE FEET', min_value=0.0, value=2116.0, help='Land area in square feet')
