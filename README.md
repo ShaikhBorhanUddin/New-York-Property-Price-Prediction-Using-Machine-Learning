@@ -39,7 +39,7 @@
   <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/New-York-Family-Home-Price-Prediction-Using-Machine-Learning?style=social" alt="Forks">
 
   <!-- Status -->
-  <img src="https://img.shields.io/badge/Project-End--to--End%20Deployed-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/Project-Deployed-brightgreen" alt="Status">
 </p> 
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/New-York-Property-Price-Prediction-Using-Machine-Learning/blob/main/Assets/nyc_title.png?raw=true) 
