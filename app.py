@@ -118,7 +118,6 @@ if 'selected_latitude' not in st.session_state or 'selected_longitude' not in st
 
 
 # --- Streamlit App ---
-st.set_page_config( page_title="NYC Family House Price Prediction", layout="wide")
 st.title('NYC Family House Price Prediction')
 st.write('Enter the property details to predict its current sale price.')
 
