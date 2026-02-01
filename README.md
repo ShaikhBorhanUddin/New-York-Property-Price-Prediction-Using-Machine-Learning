@@ -32,12 +32,8 @@
   <img src="https://img.shields.io/badge/Environment-Jupyter%20%7C%20Colab-lightgrey" alt="Environment">
 
   <!-- Runtime -->
-  <img src="https://img.shields.io/badge/Runtime-CPU-blue" alt="Runtime">
-
-  <!-- Runtime -->
-  <img src="https://img.shields.io/badge/Runtime-CPU-blue" alt="Runtime">
-  <img src="https://img.shields.io/badge/Runtime-CPU-blue" alt="Runtime"> 
-
+  <img src="https://img.shields.io/badge/⚙️Runtime-CPU-blue" alt="Runtime"> 
+  
   <!-- Deployment -->
   <img src="https://img.shields.io/badge/Deployment-Streamlit-orange?logo=streamlit" alt="Deployment: Streamlit">
 
