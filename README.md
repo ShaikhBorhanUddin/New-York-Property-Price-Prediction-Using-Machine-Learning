@@ -6,10 +6,10 @@
   <img src="https://img.shields.io/badge/Language-Python-blue?logo=python" alt="Language: Python">
 
   <!-- License & Issues -->
-  <img src="https://img.shields.io/badge/⚖️%20License-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/🐞%20Issues-GitHub-red" alt="Issues">
+  <img src="https://img.shields.io/badge/⚖️%20License-MIT-blue" alt="License">
+  <img src="https://img.shields.io/badge/🐞%20Issues-None-green" alt="Issues">
 
-  <!-- Repo Stats (UPDATE REPO NAME) -->
+  <!-- Repo Stats -->
   <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning?logo=github" />
   <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning" alt="Last Commit">
 
