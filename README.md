@@ -20,13 +20,10 @@
   <img src="https://img.shields.io/badge/📊%20Visualization-Matplotlib%20%7C%20Seaborn-yellow" alt="Visualization">
 
   <!-- Dataset -->
-  <img src="https://img.shields.io/badge/Dataset-Kaggle | data.gov | datahub-blueviolet" alt="Dataset: NYC Property Sales"> 
+  <img src="https://img.shields.io/badge/🗂️Dataset-Kaggle | data.gov | datahub-blueviolet" alt="Dataset: NYC Property Sales"> 
 
   <!-- Data Processing -->
   <img src="https://img.shields.io/badge/🧹%20Data%20Processing-Pandas%20%7C%20NumPy-blue" alt="Data Processing">
-
-  <!-- Dataset -->
-  <img src="https://img.shields.io/badge/Dataset-Kaggle | data.gov | datahub-blueviolet" alt="Dataset: NYC Property Sales"> 
 
   <!-- Environment -->
   <img src="https://img.shields.io/badge/Environment-Jupyter%20%7C%20Colab-lightgrey" alt="Environment">
