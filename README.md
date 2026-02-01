@@ -11,7 +11,7 @@
 
   <!-- Repo Stats (UPDATE REPO NAME) -->
   <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/New-York-Family-Home-Price-Prediction?logo=github" />
-  <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/New-York-Family-Home-Price-Prediction-Using-Machine-Learning" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning" alt="Last Commit">
 
   <!-- Models -->
   <img src="https://img.shields.io/badge/🤖%20Models-XGBoost | ElasticNet | Random Forest-red" alt="Model: XGBoost">
@@ -33,7 +33,7 @@
   <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github" alt="GitHub">
 
   <!-- Social -->
-  <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/New-York-Family-Home-Price-Prediction-Using-Machine-Learning?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning?style=social" alt="Forks">
 
   <!-- Status -->
   <img src="https://img.shields.io/badge/Project-Deployed-brightgreen" alt="Status">
