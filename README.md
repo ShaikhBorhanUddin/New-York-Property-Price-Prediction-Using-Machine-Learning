@@ -47,6 +47,10 @@ This project focuses on predicting sale prices for low-density residential famil
 
 Accurately estimating residential property prices in New York City is challenging due to market volatility, location-based variation, and heterogeneous housing characteristics. This project aims to build a machine learning model that predicts family home prices using historical NYC property sales data and deploys the model as an interactive web application. 
 
+## Folder Structure 
+
+## Workflow 
+
 ## Dataset 
 
 The original [Dataset](https://www.kaggle.com/datasets/datasciencedonut/current-nyc-property-sales) is sourced from Kaggle. For additional information on property addresses a secondary [PLUTO](https://catalog.data.gov/dataset/primary-land-use-tax-lot-output-pluto) dataset is used. For consumer price index [CPI](https://datahub.io/core/cpi-us) dataset is used. 
