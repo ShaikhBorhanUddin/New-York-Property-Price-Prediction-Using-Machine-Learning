@@ -65,8 +65,14 @@ The original [Dataset](https://www.kaggle.com/datasets/datasciencedonut/current-
 
 ## Model Performance Evaluation 
 
-
-
 ## Deployment 
+
+## Limitations 
+
+## Tools Used 
+
+## Licence 
+
+## Contact 
 
 To access the streamlit app click the [Link](https://nycfamilyhousepriceprediction.streamlit.app/).
