@@ -4,7 +4,7 @@
   <!-- Core -->
   <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white" alt="Made with Colab">
   <img src="https://img.shields.io/badge/Language-Python-green?logo=python" alt="Language: Python">
-  <img src="https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode">
+  <img src="https://img.shields.io/badge/Dev%20Environment-VS%20Code-blue?logo=visualstudiocode">
 
   <!-- License & Issues -->
   <img src="https://img.shields.io/badge/⚖️%20License-MIT-red" alt="License">
