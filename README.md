@@ -59,7 +59,14 @@ House Price Prediction Project
 │      ├── Preprocessed/          # Dataset with added features
 │      ├── Cleaned/               # Cleaned and merged datasets
 │      └── Feature Engineered/    # dataset with BoW, TF-IDF, word2vec and lemmatized features
-├── Models/                       # All saved models (distilbert safetensor too large to upload in GitHub)
+├── Models/
+│      ├── Raw/                       # All saved models (distilbert safetensor too large to upload in GitHub)
+│      ├── Raw/
+│      ├── Raw/
+│      ├── Raw/
+│      ├── Raw/
+│      ├── Raw/
+│      └── Raw/
 ├── Notebooks/                    # Data preprocessing, EDA, train/test, result visualization
 ├── app.py                        # Code for deployment
 ├── requirements.txt              # Python dependencies for deployment
