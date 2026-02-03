@@ -55,10 +55,16 @@ House Price Prediction Project
 │
 ├── Assets/                       # Images for project documentation
 ├── Dataset/               
-│      ├── Raw/                   # Original dataset from Kaggle (3rd dataset too large to upload in GitHub)
-│      ├── Preprocessed/          # Dataset with added features
-│      ├── Cleaned/               # Cleaned and merged datasets
-│      └── Feature Engineered/    # dataset with BoW, TF-IDF, word2vec and lemmatized features
+│      ├── Raw/                  
+│      │     ├── nyc_property_sales.csv     # Not included in the repository due to exceeding maximum file size (364.5 MB)
+│      │     ├── PLUTO.csv                  # Not included in the repository due to exceeding maximum file size (292.1 MB)
+│      │     └── cpi_index.csv 
+│      ├── Cleaned/               
+│      │     ├── nyc_property_sales_cleaned.csv
+│      │     ├── PLUTO_cleaned.csv
+│      │     └── cpi_index_clean.csv
+│      └── Feature Engineered/
+│            └── sales_pluto_cpi_combined_engineered.csv
 ├── Models/
 │      ├── combined_location_mapping.pkl                       
 │      ├── feature_names.pkl
@@ -66,7 +72,7 @@ House Price Prediction Project
 │      ├── unique_categorical_values.pkl
 │      ├── xgboost_model.pkl
 │      ├── elastic_net_model.pkl
-│      └── rf_model.pkl                        # Not included in the repository due to large size (3.66 GB)
+│      └── rf_model.pkl                        # Not included in the repository due to large  model size (3.66 GB)
 ├── Notebooks/                    # Data preprocessing, EDA, train/test, result visualization
 ├── app.py                        # Code for deployment
 ├── requirements.txt              # Python dependencies for deployment
