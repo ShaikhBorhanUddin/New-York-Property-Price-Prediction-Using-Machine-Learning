@@ -28,8 +28,12 @@ def load_artifacts():
         joblib.load(unique_categorical_values_path),
         joblib.load(combined_location_mapping_path),
         joblib.load(location_coordinates_mapping_path),
-        joblib.load(block_lot_mapping_path),
     )
+@st.cache_resource
+def load_block_lot_mapping():
+    return joblib.load(block_lot_mapping_path)
+
+block_lot_mapping = load_block_lot_mapping()
 
 model = load_model()
 feature_names, unique_categorical_values, combined_location_mapping, block_lot_mapping, location_coordinates_mapping = load_artifacts()
