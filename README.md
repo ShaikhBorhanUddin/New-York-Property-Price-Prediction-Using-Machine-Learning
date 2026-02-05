@@ -139,7 +139,8 @@ The sale history in the primary dataset spans more than 20 years. To accurately 
 | Index | object | The inflation index value used for price normalization. |
 | Inflation | object | The inflation rate representing the change in price level over time. | 
 
-Data cleaning, feature modification, extraction of new features, and the subsequent merging of these three datasets will be discussed in detail in the following sections. 
+The property sales dataset contains a significant number of missing values in several features, such as building unit type, size, apartment number, and easement. In contrast, the PLUTO dataset has far fewer missing values, with fewer than 2,000 records missing in fields such as postcode, latitude, and longitude. 
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sales_null_value_count.png" width="46.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/PLUTO_null_value_count.png" width="53%" />
