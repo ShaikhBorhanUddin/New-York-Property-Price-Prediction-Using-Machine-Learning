@@ -119,8 +119,7 @@ The primary dataset [Current NYC Property Sales](https://www.kaggle.com/datasets
 | SALE PRICE | object | The price for which the property was sold. |
 | SALE DATE | object | The date when the property was sold. | 
 
-However, the primary dataset does not include precise geolocation information (latitude and longitude), which is crucial for accurately pinpointing properties on a map during deployment. Therefore, to enrich the property location details, a secondary [PLUTO](https://catalog.data.gov/dataset/primary-land-use-tax-lot-output-pluto) dataset is used.
-For additional information on property addresses a secondary [PLUTO](https://catalog.data.gov/dataset/primary-land-use-tax-lot-output-pluto) dataset is used. For consumer price index [CPI](https://datahub.io/core/cpi-us) dataset is used. 
+However, the primary dataset does not include precise geolocation information (latitude and longitude), which is crucial for accurately pinpointing properties on a map during deployment. Therefore, to enrich the property location details, a secondary [PLUTO](https://catalog.data.gov/dataset/primary-land-use-tax-lot-output-pluto) dataset is used. Summary of important columns of this dataset is given below. 
 
 | Column Name | Data Type | Description |
 |------------|-----------|-------------|
@@ -131,6 +130,8 @@ For additional information on property addresses a secondary [PLUTO](https://cat
 | yearbuilt | float64 | The year in which the property structure was originally built. |
 | latitude | float64 | The geographic latitude coordinate of the property location. |
 | longitude | float64 | The geographic longitude coordinate of the property location. | 
+
+For consumer price index [CPI](https://datahub.io/core/cpi-us) dataset is used. 
 
 | Field Name | Data Type | Description |
 |-----------|-----------|-------------|
