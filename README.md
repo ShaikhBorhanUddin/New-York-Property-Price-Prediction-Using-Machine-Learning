@@ -121,7 +121,7 @@ The primary dataset [Current NYC Property Sales](https://www.kaggle.com/datasets
 
 However, the primary dataset does not include precise geolocation information (latitude and longitude), which is crucial for accurately pinpointing properties on a map during deployment. Therefore, to enrich the property location details, a secondary [PLUTO](https://catalog.data.gov/dataset/primary-land-use-tax-lot-output-pluto) dataset is used. This dataset contains detailed property attributes beyond those available in the sales dataset, such as land area and building area, including residential area, office area, garage area, commercial area, frontage, land depth, storage area, and more. While these features provide rich spatial and structural information, their high dimensionality may introduce noise and potentially overwhelm machine learning models if not carefully selected or engineered. Summary of important columns of this dataset is given below. 
 
-| Column Name | Data Type | Description |
+| Columns | Data Type | Description |
 |------------|-----------|-------------|
 | borough | object | The name of the borough where the property is located. |
 | Tax block | int64 | A tax block is a subdivision of the borough used to identify real property locations. |
@@ -133,11 +133,13 @@ However, the primary dataset does not include precise geolocation information (l
 
 The sale history in the primary dataset spans more than 20 years. To accurately predict house prices in the context of present-day economic conditions, inflation must be taken into account. Therefore, a [Consumer Price Index (CPI)](https://datahub.io/core/cpi-us) dataset is used to adjust historical sale prices to their current-time equivalents. This inflation adjustment is an industry-standard practice, widely adopted by economists, financial institutions, and real estate analytics platforms such as Zillow and Redfin, all of which rely on monthly CPI data for price normalization. 
 
-| Field Name | Data Type | Description |
+| Columns | Data Type | Description |
 |-----------|-----------|-------------|
 | Date | object | The date corresponding to the inflation record. |
 | Index | object | The inflation index value used for price normalization. |
 | Inflation | object | The inflation rate representing the change in price level over time. | 
+
+Data cleaning, feature modification, extraction of new features, and the subsequent merging of these three datasets will be discussed in detail in the following sections. 
 
 ## Data Cleaning and Preprocessing 
 
