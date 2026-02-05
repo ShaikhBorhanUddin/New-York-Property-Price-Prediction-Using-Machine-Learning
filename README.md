@@ -127,8 +127,14 @@ The original [Dataset](https://www.kaggle.com/datasets/datasciencedonut/current-
 | postcode | float64 | The ZIP/postal code of the property location. |
 | yearbuilt | float64 | The year in which the property structure was originally built. |
 | latitude | float64 | The geographic latitude coordinate of the property location. |
-| longitude | float64 | The geographic longitude coordinate of the property location. |
+| longitude | float64 | The geographic longitude coordinate of the property location. | 
 
+| Field Name | Data Type | Description |
+|-----------|-----------|-------------|
+| Date | object | The date corresponding to the CPI record. |
+| CPI | object | Consumer Price Index value representing inflation level. |
+| Year | object | The calendar year of the record. |
+| Month | object | The month of the record (1–12). | 
 
 ## Data Cleaning and Preprocessing 
 
