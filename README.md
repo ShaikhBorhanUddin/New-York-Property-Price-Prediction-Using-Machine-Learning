@@ -193,6 +193,12 @@ To maintain data integrity and ensure consistency across datasets, the following
 
 Once these steps were completed, the [cleaned PLUTO dataset](https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Dataset/Cleaned/PLUTO_cleaned.csv.zip) was saved for use in the subsequent feature engineering process. 
 
+| Date | Year | Month |
+|------|------|-------|
+| 2023-12-01 | 2023 | 12 |
+| 2023-11-01 | 2023 | 11 |
+| 2023-10-01 | 2023 | 10 | 
+
 ## Exploratory Data Analysis 
 
 ## Feature Engineering 
