@@ -173,7 +173,13 @@ The ZIP CODE column name contained embedded whitespace, which was stripped to st
 
 The ADDRESS column was also dropped due to its high risk of data leakage and extremely high cardinality, with over 600,000 unique textual values, making it impractical for encoding prior to model training. Similarly, the EASE-MENT column contained a substantial proportion of missing values and was therefore excluded from further analysis. Since the BUILDING CLASS CATEGORY NUMBER and BUILDING CLASS CATEGORY DESCRIPTION features were derived from the original BUILDING CLASS CATEGORY field, the original column became redundant and was subsequently removed.
 
-While the original SALE DATE provides day-level granularity, real estate prices typically vary at monthly or quarterly scales. To capture meaningful temporal trends while avoiding high-cardinality features and potential leakage, SALE YEAR and SALE MONTH were derived from the sale date and retained in place of the full date field.
+While the original SALE DATE provides day-level granularity, real estate prices typically vary at monthly or quarterly scales. To capture meaningful temporal trends while avoiding high-cardinality features and potential leakage, SALE YEAR and SALE MONTH were derived from the sale date and retained in place of the full date field. 
+
+| SALE DATE | SALE YEAR | SALE MONTH |
+|-----------|-----------|------------|
+| 2022-09-29 | 2022 | 9 |
+| 2022-07-28 | 2022 | 7 |
+| 2022-04-08 | 2022 | 8 | 
 
 Finally, all sale price entries below $15,000 were removed from the dataset. This threshold is not arbitrary but reflects an industry-informed heuristic based on New York City real estate behavior and dataset characteristics. In the NYC market, even the lowest-priced legitimate transactions—such as vacant land, foreclosed units, or parking spaces—rarely occur below $15,000 in arm’s-length sales. Moreover, the dataset documentation indicates that zero-valued sales represent transfers without cash consideration, and exploratory analysis shows that most non-market or artificial transactions cluster between $0 and $10,000. Setting the cutoff at $15,000 effectively removes these non-genuine transactions while preserving valid low-value sales, resulting in a cleaner and more reliable target variable for modeling.
 
