@@ -185,13 +185,13 @@ At this stage, the [cleaned property sales dataset](https://github.com/ShaikhBor
 
 The PLUTO (Primary Land Use Tax Lot Output) dataset provides extensive land-use and geographic information at the tax lot level. To reduce complexity during the feature engineering process, only a subset of relevant features was retained, including **borough**, **Tax block**, **Tax lot**, **postcode**, **year built**, **latitude**, and **longitude**, while all other columns were excluded. 
 
-While exact sale dates contain day-level information, real estate prices vary at monthly or quarterly scales. Retaining year and month preserves meaningful temporal signal while avoiding high-cardinality features and potential leakage. 
+To maintain data integrity and ensure consistency across datasets, the following mapping was applied to the borough column. 
 
 ```bash
 'MN': 1, 'BX': 2, 'BK': 3, 'QN': 4, 'SI': 5
-``` 
+```
 
-Because adjusted sale price represents the inflation-normalized economic value of the property, it was used as the modeling target. Nominal sale price was excluded to avoid redundancy and inflation-driven noise. 
+Once these steps were completed, the cleaned PLUTO dataset was saved for use in the subsequent feature engineering process. 
 
 ## Exploratory Data Analysis 
 
