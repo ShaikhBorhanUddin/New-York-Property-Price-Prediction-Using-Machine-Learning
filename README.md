@@ -181,7 +181,7 @@ While the original **SALE DATE** provides day-level granularity, real estate pri
 
 Finally, all **SALE PRICE** entries below $15,000 were removed from the dataset. This threshold is not arbitrary but reflects an industry-informed heuristic based on New York City real estate behavior and dataset characteristics. In the NYC market, even the lowest-priced legitimate transactions (such as vacant land, foreclosed units, or parking spaces) rarely occur below $15,000 in arm’s-length sales. Moreover, the dataset documentation indicates that zero-valued sales represent transfers without cash consideration, and exploratory analysis shows that most non-market or artificial transactions cluster between $0 and $10,000. Setting the cutoff at $15,000 effectively removes these non-genuine transactions while preserving valid low-value sales, resulting in a cleaner and more reliable target variable for modeling.
 
-At this stage, the cleaned property sales dataset is finalized and saved for subsequent use in the feature engineering pipeline. 
+At this stage, the [cleaned property sales dataset](https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Dataset/Cleaned/nyc_property_sales_cleaned.csv.zip) is finalized and saved for subsequent use in the feature engineering pipeline. 
 
 While exact sale dates contain day-level information, real estate prices vary at monthly or quarterly scales. Retaining year and month preserves meaningful temporal signal while avoiding high-cardinality features and potential leakage. 
 
