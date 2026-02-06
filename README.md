@@ -155,7 +155,31 @@ Handling these missing values, along with data cleaning, feature modification, e
 | 01 ONE FAMILY DWELLINGS | 1 | ONE FAMILY DWELLINGS |
 | 02 TWO FAMILY DWELLINGS | 2 | TWO FAMILY DWELLINGS |
 | 07 RENTALS - WALKUP APARTMENTS | 7 | RENTALS - WALKUP APARTMENTS |
-| 07 RENTALS - WALKUP APARTMENTS | 7 | RENTALS - WALKUP APARTMENTS | 
+| 07 RENTALS - WALKUP APARTMENTS | 7 | RENTALS - WALKUP APARTMENTS |  
+
+| Field Name | Non-Null Count | Data Type |
+|-----------|---------------|-----------|
+| BOROUGH | 549068 | int64 |
+| NEIGHBORHOOD | 549068 | object |
+| TAX CLASS AT PRESENT | 549068 | object |
+| BLOCK | 549068 | int64 |
+| LOT | 549068 | int64 |
+| BUILDING CLASS AT PRESENT | 549068 | object |
+| ZIP CODE | 549068 | object |
+| RESIDENTIAL UNITS | 549068 | int64 |
+| COMMERCIAL UNITS | 549068 | int64 |
+| TOTAL UNITS | 549068 | int64 |
+| LAND SQUARE FEET | 549068 | float64 |
+| GROSS SQUARE FEET | 549068 | float64 |
+| YEAR BUILT | 548985 | object |
+| TAX CLASS AT TIME OF SALE | 549068 | object |
+| BUILDING CLASS AT TIME OF SALE | 549068 | object |
+| SALE PRICE | 549068 | int64 |
+| SALE DATE | 549068 | datetime64[ns] |
+| BUILDING CLASS CATEGORY NUMBER | 549068 | int64 |
+| BUILDING CLASS CATEGORY DESCRIPTION | 549068 | object |
+| SALE YEAR | 549068 | int32 |
+| SALE MONTH | 549068 | int32 | 
 
 While exact sale dates contain day-level information, real estate prices vary at monthly or quarterly scales. Retaining year and month preserves meaningful temporal signal while avoiding high-cardinality features and potential leakage. 
 
