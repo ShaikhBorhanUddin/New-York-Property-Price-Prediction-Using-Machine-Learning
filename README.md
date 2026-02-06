@@ -142,7 +142,7 @@ The sale history in the primary dataset spans more than 20 years. To accurately 
 The property sales dataset contains a significant number of missing values in several features, such as building unit type, size, apartment number, and easement. In contrast, the PLUTO dataset has far fewer missing values, with fewer than 2,000 records missing in fields such as postcode, latitude, and longitude. 
 
 <p align="center">
-  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sales_null_value_count.png" width="46.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sales_null_value_count.png" width="46.45%" />
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/PLUTO_null_value_count.png" width="53%" />
 </p> 
 
