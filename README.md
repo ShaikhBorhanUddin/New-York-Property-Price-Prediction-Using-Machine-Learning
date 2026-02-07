@@ -249,7 +249,7 @@ After this inflation adjustment, the sale prices become significantly more meani
 | 2999999 | 3286669 |
 | 11100000 | 12181076 | 
 
-At this stage, the original SALE PRICE column becomes redundant and is therefore removed, while the ADJUSTED SALE PRICE is retained as the target variable for machine learning model training. 
+At this stage, the original SALE PRICE column becomes redundant and is therefore removed, while ADJUSTED SALE PRICE is retained as the target variable for machine learning model training. With this, the [feature-engineered dataset](https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/tree/main/Dataset/Feature%20Engineered) is finalized and ready for model development and training.  
 
 ## Model Training 
 
