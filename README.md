@@ -210,7 +210,7 @@ Upon completion of these steps, the [cleaned CPI Index dataset](https://github.c
 ## Feature Engineering 
 
 <p align="left">
-  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sales_PLUTO_join.png" width="46.45%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sales_PLUTO_join.png" width="56%" />
 </p> 
 
 ## Model Training 
