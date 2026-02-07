@@ -193,11 +193,17 @@ To maintain data integrity and ensure consistency across datasets, the following
 
 Once these steps were completed, the [cleaned PLUTO dataset](https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Dataset/Cleaned/PLUTO_cleaned.csv.zip) was saved for use in the subsequent feature engineering process. 
 
+The CPI Index dataset was used exclusively to convert historical house sale prices to their present-time equivalents. Since the index values are already provided, the **Inflation** column was redundant and therefore removed, and the **Index** column was renamed to **CPI** for clarity and consistency. 
+
+Official CPI figures are published by the U.S. Bureau of Labor Statistics on the first day of each month and remain valid for the entire month. To support feature engineering and dataset integration, **Year** and **Month** features were derived from the **Date** column. This enables seamless merging with the sales dataset, which contains corresponding sale year and sale month fields. 
+
 | Date | Year | Month |
 |------|------|-------|
 | 2023-12-01 | 2023 | 12 |
 | 2023-11-01 | 2023 | 11 |
 | 2023-10-01 | 2023 | 10 | 
+
+Upon completion of these steps, the cleaned CPI Index dataset was saved for use in the subsequent feature engineering process. 
 
 ## Exploratory Data Analysis 
 
