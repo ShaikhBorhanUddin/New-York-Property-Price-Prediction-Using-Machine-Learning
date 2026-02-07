@@ -235,6 +235,22 @@ Based on this year–month alignment, the datasets are merged using a left join 
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sale_pluto_cpi_join.png" width="56%" />
 </p> 
 
+According to the U.S. Bureau of Labor Statistics, the current Consumer Price Index (CPI) is approximately 325.17. Using this value as the reference baseline, historical sale prices are adjusted to their present-time equivalents using the formula: 
+
+```bash
+ADJUSTED SALE PRICE = SALE PRICE * ( 325.17 / CPI )
+``` 
+
+After this inflation adjustment, the sale prices become significantly more meaningful and comparable across time (illustrated in the accompanying table). 
+
+| SALE PRICE | ADJUSTED SALE PRICE |
+|-----------|-----------|
+| 399000 | 437127 |
+| 2999999 | 3286669 |
+| 11100000 | 12181076 | 
+
+At this stage, the original SALE PRICE column becomes redundant and is therefore removed, while the ADJUSTED SALE PRICE is retained as the target variable for machine learning model training. 
+
 ## Model Training 
 
 ## Model Performance Evaluation 
