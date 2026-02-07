@@ -235,7 +235,7 @@ Based on this year–month alignment, the datasets are merged using a left join 
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sale_pluto_cpi_join.png" width="56%" />
 </p> 
 
-According to the U.S. Bureau of Labor Statistics, the current Consumer Price Index (CPI) is approximately 325.17. Using this value as the reference baseline, historical sale prices are adjusted to their present-time equivalents using the formula: 
+According to the U.S. Bureau of Labor Statistics, the Consumer Price Index (CPI) during January 2026 is approximately 325.17. Using this value as the reference baseline, historical sale prices are adjusted to their present-time equivalents using the formula: 
 
 ```bash
 ADJUSTED SALE PRICE = SALE PRICE * ( 325.17 / CPI )
