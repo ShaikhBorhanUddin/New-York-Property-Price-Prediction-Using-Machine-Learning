@@ -261,6 +261,8 @@ At this stage, the original SALE PRICE column becomes redundant and is therefore
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/zipcode_distribution.png" width="56.7%" />
 </p> 
 
+Analyze the findings 
+
 ## Model Training 
 
 ## Model Performance Evaluation 
