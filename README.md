@@ -278,8 +278,8 @@ Analyze the findings
 Analyze the findings 
 
 <p align="center">
-  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/building_class_category_description.png" width="49%" />
-  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/building_class_at_time_of_sale.png" width="49%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/building_class_category_description.png" width="45%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/building_class_at_time_of_sale.png" width="54%" />
 </p> 
 
 <p align="center">
