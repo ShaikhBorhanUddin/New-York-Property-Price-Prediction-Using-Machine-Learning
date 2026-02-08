@@ -252,8 +252,8 @@ At this stage, the original SALE PRICE column becomes redundant and is therefore
 ## Exploratory Data Analysis 
 
 <p align="center">
-  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/property_location_scatterplot.png" width="42%" />
-  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/borough_barchart.png" width="57%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/property_location_scatterplot.png" width="42.2%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/borough_barchart.png" width="56.8%" />
 </p> 
 
 <p align="center">
