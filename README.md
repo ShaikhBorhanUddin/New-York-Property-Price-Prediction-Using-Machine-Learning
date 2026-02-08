@@ -205,8 +205,6 @@ Official CPI figures are published by the U.S. Bureau of Labor Statistics on the
 
 Upon completion of these steps, the [cleaned CPI Index dataset](https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Dataset/Cleaned/cpi_index_clean.csv) was saved for use in the subsequent feature engineering process. 
 
-## Exploratory Data Analysis 
-
 ## Feature Engineering 
 
 As discussed in the dataset section, the Property Sales dataset does not contain precise geolocation information, making it necessary to enrich the data before proceeding further. However, the cleaned Property Sales and PLUTO datasets use different column names for the common identifiers (borough, block, and lot). These columns were first standardized using a consistent naming convention (shown below). 
@@ -249,7 +247,19 @@ After this inflation adjustment, the sale prices become significantly more meani
 | 2999999 | 3286669 |
 | 11100000 | 12181076 | 
 
-At this stage, the original SALE PRICE column becomes redundant and is therefore removed, while ADJUSTED SALE PRICE is retained as the target variable for machine learning model training. With this, the [feature-engineered dataset](https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/tree/main/Dataset/Feature%20Engineered) is finalized and ready for model development and training.  
+At this stage, the original SALE PRICE column becomes redundant and is therefore removed, while ADJUSTED SALE PRICE is retained as the target variable for machine learning model training. With this, the [feature-engineered dataset](https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/tree/main/Dataset/Feature%20Engineered) is finalized and ready for exploratory data analysis, model development and training. 
+
+## Exploratory Data Analysis 
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/property_location_scatterplot.png" width="46.45%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/borough_barchart.png" width="53%" />
+</p> 
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/sales_null_value_count.png" width="46.45%" />
+  <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/PLUTO_null_value_count.png" width="53%" />
+</p> 
 
 ## Model Training 
 
