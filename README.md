@@ -258,13 +258,15 @@ The primary objective of this project is to predict family house prices (up to t
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/borough_barchart.png" width="56.7%" />
 </p> 
 
+The static scatter plot shows a clear and accurate spatial separation of properties across the five NYC boroughs, confirming that the latitude–longitude data aligns well with real-world geography and validating the effectiveness of the geolocation imputation process. The borough-wise distribution reveals a strong imbalance in property counts, with Queens and Brooklyn dominating the dataset, followed by Staten Island and the Bronx, while Manhattan has a notably smaller number of observations; an important consideration for model bias and representativeness. 
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/top_10_neighborhood.png" width="42.2%" />
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/zipcode_distribution.png" width="56.7%" />
 </p> 
 
-Analyze the findings 
-
+The repeated borough distribution plot reinforces this imbalance and highlights that outer boroughs contribute most of the training data, which may influence learned price patterns. Finally, the ZIP code distribution indicates that property records are heavily concentrated within specific ZIP code ranges, suggesting localized clustering of sales activity and underscoring the importance of spatial features (ZIP code, borough, latitude, longitude) in capturing neighborhood-level price variations during model training. 
+ 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/built_year_map.png" width="41.8%" />
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/year_built_barchart.png" width="57.5%" />
