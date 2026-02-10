@@ -332,6 +332,10 @@ To assess how accurately the models predict house prices, predictions for 40 ran
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/New-York-Property-Price-Prediction-Using-Machine-Learning/blob/main/Assets/actual_vs_predicted.png?raw=true) 
 
+Plots with a locally weighted regression (LOESS) curve for each model was also generated. This type of curve is more adaptive than a simple polynomial and can better reflect the 'native' trend of how each model's predictions relate to the actual values without imposing a fixed functional form. This gives a good visual sense of the general agreement between actual and predicted values for each model. 
+
+
+
 ## Deployment 
 
 To access the streamlit app click the [Link](https://nycfamilyhousepriceprediction.streamlit.app/).
