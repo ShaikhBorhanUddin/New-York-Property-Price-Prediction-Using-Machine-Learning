@@ -336,7 +336,7 @@ Plots with a locally weighted regression (LOESS) curve for each model was also g
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/New-York-Property-Price-Prediction-Using-Machine-Learning/blob/main/Assets/LOESS.png?raw=true) 
 
-
+Both XGBoost and Random Forest demonstrate superior predictive performance over ElasticNet, as indicated by the LOESS curve. 
 
 ## Deployment 
 
