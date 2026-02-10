@@ -316,6 +316,10 @@ Three different regression models were trained and compared to capture both line
 | ElasticNet    | `Pipeline(StandardScaler → ElasticNet)` | `random_state=42`                                                                                         |  5 Seconds             |
 | Random Forest | `RandomForestRegressor`                 | `n_estimators=100`, `random_state=42`, `n_jobs=-1`                                                        |    22 Minutes           | 
 
+## Model Performance Evaluation 
+
+The performance metrics of all three tested models are presented in this section, evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²). 
+
 | Model Name     | MAE        | MSE              | RMSE       | R²  |
 |----------------|------------|------------------|------------|-----|
 | XGBoost        | 241,319.42 | 537,487,507,456  | 733,135.40 | 0.69 |
@@ -323,13 +327,6 @@ Three different regression models were trained and compared to capture both line
 | Random Forest  | 208,127.17 | 469,900,136,496  | 685,492.62 | 0.73 | 
 
 Based on the evaluation metrics, Random Forest is the best-performing model in this project. It achieves the lowest MAE (208,127.17) and lowest RMSE (685,492.62), indicating more accurate price predictions with smaller average and squared errors. In addition, it records the highest R² score (0.73), meaning it explains the largest proportion of variance in adjusted house prices compared to XGBoost and ElasticNet. 
-
-
-
-## Model Performance Evaluation 
-
-The performance metrics of all three tested models are presented in this section, evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²). 
-
 
 ## Deployment 
 
