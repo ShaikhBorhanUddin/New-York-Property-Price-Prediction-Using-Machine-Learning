@@ -326,7 +326,9 @@ The performance metrics of all three tested models are presented in this section
 | ElasticNet     | 288,835.18 | 955,445,796,725  | 977,469.08 | 0.45 |
 | Random Forest  | 208,127.17 | 469,900,136,496  | 685,492.62 | 0.73 | 
 
-Based on the evaluation metrics, Random Forest is the best-performing model in this project. It achieves the lowest MAE (208,127.17) and lowest RMSE (685,492.62), indicating more accurate price predictions with smaller average and squared errors. In addition, it records the highest R² score (0.73), meaning it explains the largest proportion of variance in adjusted house prices compared to XGBoost and ElasticNet. 
+Based on the evaluation metrics, **Random Forest** is the best-performing model in this project. It achieves the lowest MAE (208,127.17) and lowest RMSE (685,492.62), indicating more accurate price predictions with smaller average and squared errors. In addition, it records the highest R² score (0.73), meaning it explains the largest proportion of variance in adjusted house prices compared to XGBoost and ElasticNet. 
+
+To assess how accurately the models predict house prices, predictions for 40 randomly selected samples from the test dataset were compared against the actual values. Based on this comparison, the Random Forest model did not demonstrate a clear or consistent superiority over the other models. 
 
 ## Deployment 
 
