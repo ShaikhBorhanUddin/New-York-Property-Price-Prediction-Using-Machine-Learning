@@ -310,6 +310,12 @@ Categorical variables were handled using one-hot encoding to make them suitable 
 
 Three different regression models were trained and compared to capture both linear and non-linear relationships in the data. The model configurations are described below. 
 
+| Model Name    | Implementation                          | Key Parameters Used                                                                                       | Training Time |
+|---------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------------|
+| XGBoost       | `xgb.XGBRegressor`                      | `objective='reg:squarederror'`, `n_estimators=100`, `learning_rate=0.1`, `max_depth=5`, `random_state=42` |               |
+| ElasticNet    | `Pipeline(StandardScaler → ElasticNet)` | `random_state=42`                                                                                         |               |
+| Random Forest | `RandomForestRegressor`                 | `n_estimators=100`, `random_state=42`, `n_jobs=-1`                                                        |               |
+
 | Model Name    | Implementation                          | Key Parameters Used                                                                                       |
 | ------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | XGBoost       | `xgb.XGBRegressor`                      | `objective='reg:squarederror'`, `n_estimators=100`, `learning_rate=0.1`, `max_depth=5`, `random_state=42` |
