@@ -265,7 +265,7 @@ The static scatter plot shows a clear and accurate spatial separation of propert
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/zipcode_distribution.png" width="56.7%" />
 </p> 
 
-The repeated borough distribution plot reinforces this imbalance and highlights that outer boroughs contribute most of the training data, which may influence learned price patterns. Finally, the ZIP code distribution indicates that property records are heavily concentrated within specific ZIP code ranges, suggesting localized clustering of sales activity and underscoring the importance of spatial features (ZIP code, borough, latitude, longitude) in capturing neighborhood-level price variations during model training. 
+The repeated borough distribution plot reinforces this imbalance and highlights that outer boroughs contribute most of the training data, which may influence learned price patterns. The ZIP code distribution indicates that property records are heavily concentrated within specific ZIP code ranges (11000 to 11500), suggesting localized clustering of sales activity and underscoring the importance of spatial features (ZIP code, borough, latitude, longitude) in capturing neighborhood-level price variations during model training. 
  
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/built_year_map.png" width="41.8%" />
