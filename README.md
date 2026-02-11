@@ -356,7 +356,7 @@ To access the streamlit app click the [Link](https://nycfamilyhousepricepredicti
 
 ## Limitations 
 
-Since the model was trained only on family house prices, the dataset includes just a subset of all properties in each neighborhood. As a result, dynamic filtering of blocks and lots is not possible in the Streamlit app. Dynamic listing can only be enabled if the dataset contains all properties within a neighborhood. 
+Since the model was trained exclusively on family house sale data, the dataset represents only a subset of all properties within each neighborhood. Properties that were never sold (e.g., inherited or endowed properties) are also not included in the training data. As a result, dynamic filtering for `BLOCK` and `LOT` could not be implemented in the Streamlit application. Such dynamic listing would only be feasible if the dataset contained a complete inventory of all properties within each neighborhood. 
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/50k_sample_scatterplot.png" width="54%" />
