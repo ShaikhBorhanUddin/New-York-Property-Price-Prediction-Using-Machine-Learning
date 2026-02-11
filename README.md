@@ -358,10 +358,14 @@ To access the streamlit app click the [Link](https://nycfamilyhousepricepredicti
 
 Since the model was trained exclusively on family house sale data, the dataset represents only a subset of all properties within each neighborhood. Properties that were never sold (e.g., inherited or endowed properties) are also not included in the training data. As a result, dynamic filtering for `BLOCK` and `LOT` could not be implemented in the Streamlit application. Such dynamic listing would only be feasible if the dataset contained a complete inventory of all properties within each neighborhood. 
 
+A Folium-based property location and sale price heatmap over Google Maps would provide significantly richer spatial insights compared to simple geolocation markers in the application. However, rendering such visualizations for large datasets is both time and memory intensive, leading to slow load times and a degraded user experience. The visualizations shown below illustrate this limitation, even when plotting a reduced sample of 50,000 data points. 
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/50k_sample_scatterplot.png" width="44.2%" />
   <img src="https://github.com/ShaikhBorhanUddin/New-York-Family-House-Price-Prediction-Using-Machine-Learning/blob/main/Assets/folium_property_heatmap.png" width="54.8%" />
 </p> 
+
+For deployment, all available data points would need to be rendered to enable meaningful comparison, which would further increase computational overhead. Therefore, although these heatmap visualizations were explored and analyzed during the Data Exploratory Analysis (DEA) phase, they were intentionally excluded from the deployed Streamlit application to ensure smooth responsiveness and usability. 
 
 ## Tools Used 
 
