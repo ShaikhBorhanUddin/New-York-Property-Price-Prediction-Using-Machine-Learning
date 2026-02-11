@@ -352,6 +352,7 @@ Although Random Forest achieved the best performance among the three models, its
 
 To access the streamlit app click the [Link](https://nycfamilyhousepriceprediction.streamlit.app/). Users can enter property details such as location, building characteristics, size, and sale information (including borough, neighborhood, ZIP code, unit counts, square footage, construction year, and building class). Once the information is submitted, the application instantly predicts the current market price of the property. 
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/New-York-Property-Price-Prediction-Using-Machine-Learning/blob/main/Assets/app_screenshot.png?raw=true)  
 
 ## Limitations 
 
