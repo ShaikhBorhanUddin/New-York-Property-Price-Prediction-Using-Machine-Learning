@@ -42,11 +42,9 @@
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/New-York-Property-Price-Prediction-Using-Machine-Learning/blob/main/Assets/nyc_title.png?raw=true) 
 
-This project focuses on predicting sale prices for low-density residential family houses in New York City, specifically one-, two-, and three-family dwellings and homes. Multi-unit apartment buildings, condominiums, cooperatives, rentals, and commercial properties were excluded to ensure homogeneous pricing behavior and reliable model performance. 
-
 ## Project Objective 
 
-Accurately estimating residential property prices in New York City is challenging due to market volatility, location-based variation, and heterogeneous housing characteristics. This project aims to build a machine learning model that predicts family home prices using historical NYC property sales data and deploys the model as an interactive web application. 
+New York City is one of the largest and most populous cities in the world, and its housing market is equally vast and complex. Building a universal property price prediction system for all property types would require massive, continuously updated datasets, high computational resources, and enterprise-grade deployment platforms. To address these practical constraints, this project focuses specifically on family houses, enabling accurate price prediction using limited resources and a lightweight deployment framework. The primary objective of this project is to develop and evaluate multiple machine learning regression models to predict family house prices in New York City based on historical property sales data, while accounting for location-based variation and heterogeneous housing characteristics. To ensure consistent pricing behavior and robust model performance, multi-unit apartments, condominiums, cooperatives, rental properties, and commercial real estate were intentionally excluded. Finally, the best-performing model is deployed as an interactive Streamlit web application, allowing users to estimate house prices in real time through a simple and user-friendly interface. 
 
 ## Folder Structure 
 
