@@ -401,7 +401,9 @@ This project was built using the following tools and technologies:
 
 ### Deployment & App Interface
 
-- Streamlit — Python framework used to build and deploy the interactive web application (app.py) for house price prediction (as indicated by deployment visuals in the repo).
+- VS Code — Python framework used for coding the interactive web application.
+
+- Streamlit — Python framework used to deploy the interactive web application (app.py) for house price prediction.
 
 ### Version Control & Environment
 
