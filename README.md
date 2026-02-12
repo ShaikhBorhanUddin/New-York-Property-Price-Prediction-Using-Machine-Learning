@@ -375,39 +375,39 @@ This project was built using the following tools and technologies:
 
 ### Programming & Development
 
-- Python — Core programming language for data processing, modeling, and deployment.
+- `Python` — Core programming language for data processing, modeling, and deployment.
 
-- Jupyter Notebook — Interactive environment for exploratory data analysis, preprocessing, feature engineering, and model training.
+- `Jupyter Notebook` — Interactive environment for exploratory data analysis, preprocessing, feature engineering, and model training.
 
 ### Machine Learning & Data Processing
 
-- pandas — Data manipulation and cleaning.
+- `pandas` — Data manipulation and cleaning.
 
-- NumPy — Numerical computing and array operations.
+- `NumPy` — Numerical computing and array operations.
 
-- scikit-learn — Machine learning library used for model training, evaluation, and preprocessing.
+- `scikit-learn` — Machine learning library used for model training, evaluation, and preprocessing.
 
-- XGBoost — Gradient boosting algorithm used for high-performance regression modeling.
+- `XGBoost` — Gradient boosting algorithm used for high-performance regression modeling.
 
-- joblib / pickle — Model serialization and saving for deployment.
+- `joblib / pickle` — Model serialization and saving for deployment.
 
 ### Visualization
 
-- Matplotlib — Plotting and visualization for exploratory data analysis and model diagnostics.
+- `Matplotlib` — Plotting and visualization for exploratory data analysis and model diagnostics.
 
-- Seaborn (optional) — Enhanced statistical visualizations.
+- `Seaborn` — Enhanced statistical visualizations.
 
-- Folium — Map visualization for EDA.
+- `Folium` — Map visualization for EDA.
 
 ### Deployment & App Interface
 
-- VS Code — Python framework used for coding the interactive web application.
+- `VS Code` — Python framework used for coding the interactive web application.
 
-- Streamlit — Python framework used to deploy the interactive web application (app.py) for house price prediction.
+- `Streamlit` — Python framework used to deploy the interactive web application (app.py) for house price prediction.
 
 ### Version Control & Environment
 
-Git & GitHub — Source code versioning and project hosting. 
+`Git` & `GitHub` — Source code versioning and project hosting. 
 
 ## Licence 
 
