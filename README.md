@@ -371,6 +371,42 @@ For deployment, all available data points would need to be rendered to enable me
 
 ## Tools Used 
 
+This project was built using the following tools and technologies:
+
+### Programming & Development
+
+- Python — Core programming language for data processing, modeling, and deployment.
+
+- Jupyter Notebook — Interactive environment for exploratory data analysis, preprocessing, feature engineering, and model training.
+
+### Machine Learning & Data Processing
+
+- pandas — Data manipulation and cleaning.
+
+- NumPy — Numerical computing and array operations.
+
+- scikit-learn — Machine learning library used for model training, evaluation, and preprocessing.
+
+- XGBoost — Gradient boosting algorithm used for high-performance regression modeling.
+
+- joblib / pickle — Model serialization and saving for deployment.
+
+### Visualization
+
+- Matplotlib — Plotting and visualization for exploratory data analysis and model diagnostics.
+
+- Seaborn (optional) — Enhanced statistical visualizations.
+
+- Folium — Map visualization for EDA.
+
+### Deployment & App Interface
+
+- Streamlit — Python framework used to build and deploy the interactive web application (app.py) for house price prediction (as indicated by deployment visuals in the repo).
+
+### Version Control & Environment
+
+Git & GitHub — Source code versioning and project hosting. 
+
 ## Licence 
 
 ## Contact 
