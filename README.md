@@ -385,7 +385,7 @@ This project was built using the following tools and technologies:
 
 - `Python` — Core programming language for data processing, modeling, and deployment.
 
-- `Jupyter Notebook` — Interactive environment for exploratory data analysis, preprocessing, feature engineering, and model training.
+- `Jupyter Notebook` — Interactive environment for EDA, preprocessing, feature engineering, and model training.
 
 ### Machine Learning & Data Processing
 
